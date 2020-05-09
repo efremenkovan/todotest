@@ -1,5 +1,7 @@
 <template>
-  <h1>Такая страница не найдена</h1>
+  <section class="container">
+    <h1>Такая страница не найдена</h1>
+  </section>
 </template>
 
 <script>

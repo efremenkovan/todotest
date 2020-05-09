@@ -221,6 +221,8 @@ export default {
     }
   },
   created() {
+    if(!this.card.id)
+      this.$router.replace('/notfound')
     window.addEventListener("keydown", this.handleKeyDown)
   },
   beforeDestroy() {
@@ -339,10 +341,6 @@ export default {
     }
     
     &__actions {
-      /*display: grid;*/
-      /*grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));*/
-      /*align-content: center;*/
-      /*grid-gap: 16px;*/
       justify-content: space-between;
       flex-wrap: wrap;
   

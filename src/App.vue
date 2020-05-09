@@ -50,7 +50,6 @@ input:not([type="checkbox"]):not([type="radio"]) {
   padding-left: 8px;
   padding-bottom: 8px;
   width: 100%;
-  /*min-width: 200px;*/
   transition: border-color 0.4s ease-in-out;
   font-size: 1rem;
   
